@@ -1,6 +1,6 @@
 let buttonPrev = document.querySelector("#prev");
 let buttonNext = document.querySelector("#next");
-let progress = document.querySelector("#progress");
+let progress = document.getElementById("progress");
 let circles = document.querySelectorAll(".circle");
 
 let currentActive = 1;
